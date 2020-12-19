@@ -1,3 +1,4 @@
+# This is Assignment 12
 #a11: Exploring Sets
 # Performs a Union of Sets passed and returns the combination of sets passed
 # This can be performed, either as set_1.union(set_2) or set_1 | set_2
@@ -46,7 +47,7 @@ son_me_difference = set_difference(son_words, my_words)
 # Find the words which are not liked by each other
 our_symmetric_difference = set_symmetric_difference(my_words, son_words)
 
-
+# Printing for user feedback
 print("UNION: List of words that exists in my set or my son's set")
 print(*our_union)
 
